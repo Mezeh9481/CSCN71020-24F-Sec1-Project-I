@@ -144,6 +144,7 @@
     <ClCompile Include="triangleSolver.c" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="checkTriangle.h" />
     <ClInclude Include="main.h" />
     <ClInclude Include="triangleSolver.h" />
   </ItemGroup>
