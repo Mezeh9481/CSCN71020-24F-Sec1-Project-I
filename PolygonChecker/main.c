@@ -27,10 +27,22 @@ int main() {
 		case 2:
 			printf_s("Rectangle selected.\n");
 			Point points[4];
+			// Calculate and display results
+			double perimeter = calculate_perimeter(points);
 
 			for (int i = 0; i < 4; i++) {
 				get_point(&points[i], i + 1);
 			}
+
+			if (is_rectangle(points)) {
+				double area = calculate_area(points);
+				printf("The points form a rectangle with perimeter: %.2f and area: %.2f\n", perimeter, area);
+			}
+			else {
+				printf("The points do not form a rectangle. Perimeter of the shape is: %.2f\n", perimeter);
+			}
+
+			
 
 		case 0:
 			continueProgram = false;
@@ -53,6 +65,7 @@ void printWelcome() {
 
 int printShapeMenu() {
 	printf_s("1. Triangle\n");
+	printf_s("2. Rectangle\n");
 	printf_s("0. Exit\n");
 
 	int shapeChoice;
