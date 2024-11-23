@@ -10,6 +10,7 @@ void get_point(Point* p, int point_num) {
         }
         else {
             printf("Invalid input. Please enter integer values.\n");
+            break;
         }
     }
 }
