@@ -11,6 +11,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Rectangle_unittest", "Recta
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Rectangle's_perimeter", "Rectangle's_perimeter\Rectangle's_perimeter.vcxproj", "{5FBD9D00-CD1C-4B64-B7AD-72D6F8002FA6}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Area_rectangle", "Area_rectangle\Area_rectangle.vcxproj", "{DB452633-262D-42F2-BBB0-373291A8F2E9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -51,6 +53,14 @@ Global
 		{5FBD9D00-CD1C-4B64-B7AD-72D6F8002FA6}.Release|x64.Build.0 = Release|x64
 		{5FBD9D00-CD1C-4B64-B7AD-72D6F8002FA6}.Release|x86.ActiveCfg = Release|Win32
 		{5FBD9D00-CD1C-4B64-B7AD-72D6F8002FA6}.Release|x86.Build.0 = Release|Win32
+		{DB452633-262D-42F2-BBB0-373291A8F2E9}.Debug|x64.ActiveCfg = Debug|x64
+		{DB452633-262D-42F2-BBB0-373291A8F2E9}.Debug|x64.Build.0 = Debug|x64
+		{DB452633-262D-42F2-BBB0-373291A8F2E9}.Debug|x86.ActiveCfg = Debug|Win32
+		{DB452633-262D-42F2-BBB0-373291A8F2E9}.Debug|x86.Build.0 = Debug|Win32
+		{DB452633-262D-42F2-BBB0-373291A8F2E9}.Release|x64.ActiveCfg = Release|x64
+		{DB452633-262D-42F2-BBB0-373291A8F2E9}.Release|x64.Build.0 = Release|x64
+		{DB452633-262D-42F2-BBB0-373291A8F2E9}.Release|x86.ActiveCfg = Release|Win32
+		{DB452633-262D-42F2-BBB0-373291A8F2E9}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -18,11 +18,7 @@ namespace Rectangleunittest
         {
             Point p;
             int point_num = 1; // 1 as first input
-
-           
             get_point(&p, point_num);
-
-        
             Assert::AreEqual(10, p.x, L"X-coordinate did not match expected value.");
             Assert::AreEqual(20, p.y, L"Y-coordinate did not match expected value.");
         }
