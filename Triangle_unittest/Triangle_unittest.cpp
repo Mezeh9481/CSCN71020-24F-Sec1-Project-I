@@ -29,11 +29,11 @@ namespace Triangleunittest
 			result = analyzeTriangle(1, 2, 10);
 			Assert::AreEqual("Not a triangle", result);
 
-			// Test with Zero or Negative Sides
-			result = analyzeTriangle(-1, 5, 6);
+			
+			result = analyzeTriangle(-1, 5, 6);  // for triangles not formed due to non positive input entered
 			Assert::AreEqual("Not a triangle", result);
 
-			result = analyzeTriangle(0, 5, 6);
+			result = analyzeTriangle(0, 5, 6);  // This kind of sides are unable to form Triangle and therefore the resultant would be no formation 
 			Assert::AreEqual("Not a triangle", result);
 		}
 	};
