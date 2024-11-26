@@ -15,9 +15,12 @@
 		double angleA = acos((pow(sideB, 2) + pow(sideC, 2) - pow(sideA, 2)) / (2 * sideB * sideC)) * (180 / M_PI);
 		double angleB = acos((pow(sideA, 2) + pow(sideC, 2) - pow(sideB, 2)) / (2 * sideA * sideC)) * (180 / M_PI);
 		double angleC = 180 - (angleA + angleB);
+		printf("%lf %lf %lf", angleA, angleB, angleC);
+	
 
 	}
 	else {
 		printf("Not a triangle\n");
 	}
+
 }
