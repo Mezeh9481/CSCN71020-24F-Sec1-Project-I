@@ -1,8 +1,9 @@
 #include <stdio.h>
 #include <stdbool.h>
-
+#include <math.h>
 #include "main.h"
 #include "triangleSolver.h"
+#include "checkTriangle.h"
 #include "RectangleSolver.h"
 int side = 0;
 
@@ -22,6 +23,8 @@ int main() {
 			//printf_s("! %d\n", triangleSidesPtr[0]);
 			char* result = analyzeTriangle(triangleSidesPtr[0], triangleSidesPtr[1], triangleSidesPtr[2]);
 			printf_s("%s\n", result);
+
+			checkTriangle();
 			break;
 
 		case 2:
