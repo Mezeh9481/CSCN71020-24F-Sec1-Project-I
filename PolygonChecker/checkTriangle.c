@@ -18,7 +18,7 @@
 		double angleA = acos((pow(sideB, 2) + pow(sideC, 2) - pow(sideA, 2)) / (2 * sideB * sideC)) * (180 / M_PI);
 		double angleB = acos((pow(sideA, 2) + pow(sideC, 2) - pow(sideB, 2)) / (2 * sideA * sideC)) * (180 / M_PI);
 		double angleC = 180 - (angleA + angleB);
-		printf("%lf %lf %lf", angleA, angleB, angleC);
+		printf(" The angles are %lf degrees, %lf degrees %lf degrees", angleA, angleB, angleC);
 	
 
 		printf("The angles of the triangle are: %.2f, %.2f, and %.2f degrees \n", angleA, angleB, angleC);
