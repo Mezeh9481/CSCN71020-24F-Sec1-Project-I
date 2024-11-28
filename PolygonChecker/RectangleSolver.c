@@ -2,23 +2,10 @@
 #include <stdio.h>
 #include "RectangleSolver.h"
 
-<<<<<< Unit_test
-void get_point(Point* p, int point_num) {
-    bool i = true;
-    while (i == true) {
-        printf("Enter the x and y coordinates for Point %d (format: x y): ", point_num);
-        if (scanf_s("%d %d", &p->x, &p->y) == 2) {
-            i = false;
-        }
-        else {
-            printf("Invalid input. Please enter integer values.\n");
-            break;
-        }
 void clear_input_buffer() {
     int c;
     while ((c = getchar()) != '\n' && c != EOF) {
         // Consume characters until a newline or EOF
->>>>>> master
     }
 }
 
